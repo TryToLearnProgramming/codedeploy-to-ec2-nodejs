@@ -1,8 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: /*
+  - source: /
     destination: /home/ubuntu
+   - source: /public
+    destination: /home/ubuntu/public
 hooks:
   AfterInstall:
     - location: afterinstall.sh
