@@ -3,8 +3,6 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu
-   - source: /public
-    destination: /home/ubuntu/public
 hooks:
   AfterInstall:
     - location: afterinstall.sh
